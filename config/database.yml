@@ -15,11 +15,11 @@ test:
   host: 127.0.0.1
   port: 3306
 production:
-adapter: postgresql
+adapter: mysql
   encoding: unicode
   database: emp_prod
-  username: postgres
-  password: postgres
+  username: root
+  password: root
   host: 127.0.0.1
 port: 5432
 pool: 100
