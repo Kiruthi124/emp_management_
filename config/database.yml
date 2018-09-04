@@ -14,12 +14,3 @@ test:
   password: root
   host: 127.0.0.1
   port: 3306
-production:
-adapter: mysql
-  encoding: utf8
-  database: emp_prod
-  username: root
-  password: root
-  host: 127.0.0.1
-port: 5432
-pool: 100
