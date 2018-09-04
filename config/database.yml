@@ -16,7 +16,7 @@ test:
   port: 3306
 production:
 adapter: mysql
-  encoding: unicode
+  encoding: utf8
   database: emp_prod
   username: root
   password: root
